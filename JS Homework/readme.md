@@ -1,3 +1,4 @@
+## 1st question
 String
 var name= "Lakshay"
 
@@ -6,7 +7,7 @@ var value=true;
 
 var value=0;
 
-2nd quesion
+## 2nd quesion
 
 const firstName = "Lakshay";
 const lastName =" Kapoor";
@@ -20,7 +21,7 @@ console.log(`My fullName is ${firstName}${lastName} and i live in ${country} and
 
 
 
-3rd question
+## 3rd question
 
 let str=("India Usa Canada Germany Japan")
 
@@ -30,7 +31,7 @@ console.log(newStr);
 
 
 
-//4th Question
+## 4th Question
 
 const str="Hello, I am Lakshay Kapoor"
 const subStr="llo"
@@ -43,7 +44,7 @@ const subString="ytue"
 console.log(string.includes(subString));
 
 
-5th Question
+## 5th Question
 
 const sentence="Hey there how are you doing today"
 
@@ -51,7 +52,7 @@ const newArr= sentence.split(" ")
 
 console.log(newArr);
 
-6th Question
+## 6th Question
 
 const companies="Facebook, Google, Microsoft, Apple, IBM, Oracle, Amazon"
 
@@ -59,7 +60,7 @@ const newArr= companies.split(",")
 
 console.log(newArr);
 
-//7th Question
+## 7th Question
 let text = "Hello there, my name is lakshay and i am writing java script";
 let result = text.length;
 
@@ -72,19 +73,19 @@ let result = text.lastIndexOf("script");
 
 console.log(result);
 
-// 8th Question
+##  8th Question
 let text = "You cannot end a sentence with because because because is a conjunction";
 let result = text.indexOf("because");
 
 console.log(result);
 
-//9th question
+## 9th question
 
 let text = "    Hello there, my nam is lakshay and i am writing java script ";
 let result= text.trim()
 console.log(result);
 
-10th question
+## 10th question
  let x;
  x=1;
  x=[1]
@@ -93,7 +94,7 @@ console.log(result);
  console.log(1=="1");
  console.log(1===[1]);
 
-11th Question
+## 11th Question
 
 console.log( 4 === '4');
 
@@ -136,12 +137,48 @@ else{
 const userAge=18;
 console.log(userAge>=18?"You can drive":"you cannot drive");
 
+## question 12
 
-Question 19
-const num=16;
-console.log(num%2==0);
+    var date= new Date();
+    console.log(Date.getFullYear());
 
-Question 17
+    
+
+var year=new Date().getFullYear()
+console.log(year);
+
+var month= new Date().getMonth();
+console.log(month);
+
+var date= new Date().getDate();
+console.log(date);
+
+var day= new Date().getDay();
+console.log(day);
+
+const d = new Date();
+let day = d.getDay();
+
+var hours= new Date().getHours();
+console.log(hours);
+
+var minutes= new Date().getMinutes();
+console.log(minutes);
+
+
+let ms =  Date.now();
+console.log(Math.round(ms));
+
+
+const secondsSinceEpoc = Math.round(Date.now() / 1000)
+console.log(secondsSinceEpoc);
+// is the same as
+
+const now = new Date()  
+const secondsSinceEpoch = Math.round(now.getTime() / 1000)
+console.log(secondsSinceEpoch);
+
+## Question 17
 
 console.log(new Date().toLocaleString("en-US"));
 
@@ -193,50 +230,10 @@ else{
     }
 
 
-    Question 32
 
-    question 12
-
-    var date= new Date();
-    console.log(Date.getFullYear());
-
-    
-
-var year=new Date().getFullYear()
-console.log(year);
-
-var month= new Date().getMonth();
-console.log(month);
-
-var date= new Date().getDate();
-console.log(date);
-
-var day= new Date().getDay();
-console.log(day);
-
-const d = new Date();
-let day = d.getDay();
-
-var hours= new Date().getHours();
-console.log(hours);
-
-var minutes= new Date().getMinutes();
-console.log(minutes);
-
-
-let ms =  Date.now();
-console.log(Math.round(ms));
-
-
-const secondsSinceEpoc = Math.round(Date.now() / 1000)
-console.log(secondsSinceEpoc);
-// is the same as
-
-const now = new Date()  
-const secondsSinceEpoch = Math.round(now.getTime() / 1000)
-console.log(secondsSinceEpoch);
-
-
+## Question 19
+const num=16;
+console.log(num%2==0);
 
 Question 19
 
@@ -250,7 +247,7 @@ else{
     console.log("odd");
 }
 
-//Question 21
+## Question 21
 
 var month= "july";
 switch (month){
@@ -295,7 +292,7 @@ switch (month){
     shoppingCart.splice(2,1,"Green Tea")
     console.log(shoppingCart);
 
-    Question 27
+    ## Question 25
 
      const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
