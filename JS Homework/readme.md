@@ -292,7 +292,7 @@ switch (month){
     shoppingCart.splice(2,1,"Green Tea")
     console.log(shoppingCart);
 
-    ## Question 25
+   ## Question 25
 
      const ages = [19, 22, 19, 24, 20, 25, 26, 24, 25, 24]
 
